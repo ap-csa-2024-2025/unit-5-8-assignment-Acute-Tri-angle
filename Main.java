@@ -13,13 +13,15 @@ public class Main
       if (input.equals("default"))
       {
         // create default car
+        Car objCar = new Car();
       }
       else
       {
         // ask for model, year, miles per gallon
+        System.out.println();
       }
 
-      System.out.println(); // print out the car object
+      System.out.println(objCar.toString()); // print out the car object
     }
   }
 }

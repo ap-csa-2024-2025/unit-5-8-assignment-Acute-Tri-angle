@@ -1,4 +1,4 @@
-public class Dog
+/*public class Dog
 {
   private String name;
   private int ID;
@@ -14,3 +14,4 @@ public class Dog
 
   // method getNumDogs
 }
+  */
