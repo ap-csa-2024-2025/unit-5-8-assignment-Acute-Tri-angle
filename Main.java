@@ -22,7 +22,7 @@ public class Main
         System.out.println(defaultCar.toString());
       }
       else if (input.equals("q")){
-
+        System.out.println("Exiting. Bye bye!!");
       }
       else
       {
