@@ -10,6 +10,7 @@ public class Car
   public Car(){
     CarID++;
     ID = CarID;
+    Make = "None";
     Model = "None";
     Year = 2000;
     MPG = 0;
@@ -18,6 +19,8 @@ public class Car
 
   public Car(String make, String model, int year, double mpg){
 
+    CarID++;
+    ID = CarID;
     Make = make;
     Model = model;
     if (year < 1885){
